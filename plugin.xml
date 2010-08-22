@@ -1,0 +1,24 @@
+<plugin name='bayes' version='0.1' grailsVersion='1.2.2 &gt; *'>
+  <author>Philip Stehlik</author>
+  <authorEmail>p@pstehlik.com</authorEmail>
+  <title>This plugin provides functionality to classify text using bayesian classifiers</title>
+  <description>\
+The bayes grails plugin provides services and data model to classify arbitrary text using bayes classifiers.
+</description>
+  <documentation>http://grails.org/plugin/bayes</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>com.pstehlik.grails.bayes.BayesCategoryController</resource>
+    <resource>com.pstehlik.grails.bayes.BayesFeatureController</resource>
+    <resource>com.pstehlik.grails.bayes.BayesCategory</resource>
+    <resource>com.pstehlik.grails.bayes.BayesFeature</resource>
+    <resource>com.pstehlik.grails.bayes.BayesClassifierListenerService</resource>
+    <resource>com.pstehlik.grails.bayes.BayesClassifierLoaderService</resource>
+    <resource>com.pstehlik.grails.bayes.BayesClassifierService</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
