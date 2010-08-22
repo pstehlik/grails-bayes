@@ -137,7 +137,7 @@ implements InitializingBean {
    * @param cat The general category that should be used for classification
    * @return Identifier of the classification
    */
-  String classifyText(String text, String group) {
+  String classifyText(String text, String group = DEFAULT_GROUP) {
     return getClassifierForGroup(group).getClassification(text)
   }
 
